@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+:root{
+    --Green: hsl(75, 94%, 57%);
+--White: hsl(0, 0%, 100%);
+--Grey-700: hsl(0, 0%, 20%);
+--Grey-800: hsl(0, 0%, 12%);
+--Grey-900: hsl(0, 0%, 8%);
+}
+
+body{
+    background-color: var(--Grey-900);
+    color: var(--White);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+}
+main{
+    
+    
+    text-align: center;
+}
+
+img{
+    width: 30%;
+
+    border-radius: 49%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+div{
+    height: 50%;
+    width: 28%;
+    background-color: var(--Grey-800);
+    margin:5rem auto;
+    padding: 2rem;
+
+}
+
+#green{
+    color: var(--Green);
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+h2{
+    margin-bottom: 0;
+}
+
+button{
+    background-color: var(--Grey-700);
+    width: 90%;
+    padding: 1rem;
+    margin: 0 auto;
+    border-radius: 0.8rem;
+
+}
+
+button a{
+    color: var(--White);
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+footer{
+    color: var(--Grey-700);
+}
+
+@media (min-width:300px) and (max-width: 508px) {
+    div{
+        width: 80%;
+        height: 90%;
+    }
+    img{
+        width: 50%;
+    }
+}
+
+@media (min-width:508px) and (max-width: 908px) {
+    div{
+        width: 40%;
+        height: 60%;
+    }
+    img{
+        width: 40%;
+    }
+}
