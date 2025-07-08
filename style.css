@@ -68,14 +68,22 @@ button a{
     font-size: 1rem;
 }
 
+button a:hover{
+    cursor: pointer;
+}
+
 footer{
     color: var(--Grey-700);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 9px;
 }
 
 @media (min-width:300px) and (max-width: 508px) {
     div{
-        width: 80%;
-        height: 90%;
+        width: 75%;
+        height: 80%;
     }
     img{
         width: 50%;
